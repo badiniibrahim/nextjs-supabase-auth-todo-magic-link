@@ -53,7 +53,7 @@ export const useAuth = () => {
           toast.error("Une erreur est survenue.");
         })
         .then(() => {
-          toast.success("Votre mot de passe a été modifié avec succès.");
+          toast.success("Votre mot de passe a été modifié avec succès");
           router.replace("/");
         })
     );
